@@ -21,7 +21,7 @@
 module ProgramCounter32bits(
     input [31:0] input1,
     input clock,
-	 input hit,
+    input hit,
     output reg [31:0] out
     );
 

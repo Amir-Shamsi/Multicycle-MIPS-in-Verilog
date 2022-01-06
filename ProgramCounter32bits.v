@@ -27,8 +27,8 @@ module ProgramCounter32bits(
 
     always @(negedge clock)
     begin
-		if (hit)
-			out = input1;
+	if (hit)
+		out = input1;
     end
 
 endmodule

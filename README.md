@@ -8,7 +8,7 @@
 </a>
 
 MIPS multi cycle Verilog implementation based on Computer Organization and Design
-### What does is support?
+### What instructions does it support?
 An example of the codes it supports:
 ```
 add Dist, Rsrc1, Rsrc2

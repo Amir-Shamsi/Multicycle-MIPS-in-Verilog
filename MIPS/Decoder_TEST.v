@@ -6,7 +6,7 @@
 //
 // Create Date:   22:21:52 11/06/2021
 // Design Name:   Decode
-// Module Name:   C:/Users/emir/homework/ProgramCounter/Decoder_TEST.v
+// Module Name:   Decoder_TEST.v
 // Project Name:  ProgramCounter
 // Target Device:  
 // Tool versions:  

@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "C:/Users/emir/homework/ProgramCounter/ProgramCounter32bits.xst" -ofn "C:/Users/emir/homework/ProgramCounter/ProgramCounter32bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 ProgramCounter32bits.ngc ProgramCounter32bits.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ProgramCounter32bits_map.ncd ProgramCounter32bits.ngd ProgramCounter32bits.pcf 
+xst -intstyle ise -ifn "C:/Users/emir/homework/ProgramCounter/ProgramCounter32bits.xst" -ofn "C:/Users/emir/homework/ProgramCounter/ProgramCounter32bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 ProgramCounter32bits.ngc ProgramCounter32bits.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ProgramCounter32bits_map.ncd ProgramCounter32bits.ngd ProgramCounter32bits.pcf 
+par -w -intstyle ise -ol high -mt off ProgramCounter32bits_map.ncd ProgramCounter32bits.ncd ProgramCounter32bits.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ProgramCounter32bits.twx ProgramCounter32bits.ncd -o ProgramCounter32bits.twr ProgramCounter32bits.pcf 
+xst -intstyle ise -ifn "C:/Users/emir/homework/ProgramCounter/ProgramCounter32bits.xst" -ofn "C:/Users/emir/homework/ProgramCounter/ProgramCounter32bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 ProgramCounter32bits.ngc ProgramCounter32bits.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ProgramCounter32bits_map.ncd ProgramCounter32bits.ngd ProgramCounter32bits.pcf 
+xst -intstyle ise -ifn "C:/Users/emir/homework/ProgramCounter/ProgramCounter32bits.xst" -ofn "C:/Users/emir/homework/ProgramCounter/ProgramCounter32bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 ProgramCounter32bits.ngc ProgramCounter32bits.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ProgramCounter32bits_map.ncd ProgramCounter32bits.ngd ProgramCounter32bits.pcf 
+par -w -intstyle ise -ol high -mt off ProgramCounter32bits_map.ncd ProgramCounter32bits.ncd ProgramCounter32bits.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ProgramCounter32bits.twx ProgramCounter32bits.ncd -o ProgramCounter32bits.twr ProgramCounter32bits.pcf 

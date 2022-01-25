@@ -6,7 +6,7 @@
 //
 // Create Date:   21:08:22 12/23/2021
 // Design Name:   DataMemory
-// Module Name:   C:/Users/emir/homework/ProgramCounter/DataMemory_TEST.v
+// Module Name:   DataMemory_TEST.v
 // Project Name:  ProgramCounter
 // Target Device:  
 // Tool versions:  

@@ -1,0 +1,78 @@
+Running: D:\Data\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/emir/homework/ProgramCounter/MIPS_isim_beh.exe -prj C:/Users/emir/homework/ProgramCounter/MIPS_beh.prj work.MIPS work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/SignExtension.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/RegisterFile.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/ProgramCounter32bits.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/multiplexer32bit-2X1.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/InstructionMemory.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/cache.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/ALUControlUnit.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/ALU.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/WriteBack.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/OpcodeBasedMux2X1.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/MEM_WB_Register.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/IF_ID_Register.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/ID_EX_Register.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/Fetch.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/Execute.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/EM_MEM_Register.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/Decode.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/DataMemory.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/ControlUnit.v" into library work
+Analyzing Verilog file "C:/Users/emir/homework/ProgramCounter/MIPS.v" into library work
+Analyzing Verilog file "D:/Data/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:329 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 266: Target <do_not_care> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 261: Size mismatch in connection of port <ALUCnt>. Formal port size is 5-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 264: Size mismatch in connection of port <shamt>. Formal port size is 5-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 270: Size mismatch in connection of port <input1>. Formal port size is 32-bit while actual signal size is 5-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 271: Size mismatch in connection of port <input2>. Formal port size is 32-bit while actual signal size is 5-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 273: Size mismatch in connection of port <out>. Formal port size is 32-bit while actual signal size is 5-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 144: Size mismatch in connection of port <write_reg>. Formal port size is 6-bit while actual signal size is 5-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 145: Size mismatch in connection of port <write_data>. Formal port size is 6-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:329 - "C:/Users/emir/homework/ProgramCounter/Fetch.v" Line 110: Target <pc_output_address> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "C:/Users/emir/homework/ProgramCounter/Fetch.v" Line 124: Target <instruction_out> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 175: Size mismatch in connection of port <write_reg>. Formal port size is 5-bit while actual signal size is 6-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 176: Size mismatch in connection of port <write_data>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 220: Size mismatch in connection of port <ALUOp>. Formal port size is 3-bit while actual signal size is 7-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 225: Size mismatch in connection of port <jumpSignal>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 242: Size mismatch in connection of port <jumpSignalOut>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 254: Size mismatch in connection of port <ALUOp>. Formal port size is 3-bit while actual signal size is 6-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/Execute.v" Line 44: Size mismatch in connection of port <ALUOp>. Formal port size is 6-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/Execute.v" Line 46: Size mismatch in connection of port <ALUCnt>. Formal port size is 5-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/Execute.v" Line 50: Size mismatch in connection of port <ALUCnt>. Formal port size is 5-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 290: Size mismatch in connection of port <jumpSignal>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 302: Size mismatch in connection of port <jumpSignalOut>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 341: Size mismatch in connection of port <MemtoReg>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 343: Size mismatch in connection of port <ALUResult>. Formal port size is 32-bit while actual signal size is 1-bit.
+Completed static elaboration
+Compiling module OpcodeBasedMux2X1
+Compiling module ProgramCounter32bits
+Compiling module InstructionMemory
+Compiling module cache
+Compiling module Fetch
+Compiling module IF_ID_Register
+Compiling module SignExtension
+Compiling module RegisterFile
+Compiling module Decode
+Compiling module ControlUnit
+Compiling module ID_EX_Register
+Compiling module multiplexer32bit2X1
+Compiling module ALUControlUnit
+Compiling module ALU
+Compiling module Execute
+Compiling module EM_MEM_Register
+Compiling module DataMemory
+Compiling module MEM_WB_Register
+Compiling module WriteBack
+Compiling module MIPS
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 21 Verilog Units
+Built simulation executable C:/Users/emir/homework/ProgramCounter/MIPS_isim_beh.exe
+Fuse Memory Usage: 29324 KB
+Fuse CPU Usage: 702 ms

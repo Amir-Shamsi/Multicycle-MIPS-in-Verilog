@@ -6,7 +6,7 @@
 //
 // Create Date:   13:16:11 12/08/2021
 // Design Name:   ALU
-// Module Name:   C:/Users/emir/homework/ProgramCounter/ALU_TEST.v
+// Module Name:   ALU_TEST.v
 // Project Name:  ProgramCounter
 // Target Device:  
 // Tool versions:  

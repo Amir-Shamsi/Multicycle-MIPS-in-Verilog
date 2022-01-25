@@ -6,7 +6,7 @@
 //
 // Create Date:   10:50:09 10/03/2021
 // Design Name:   multiplexer32bit2X1
-// Module Name:   C:/Users/****/homework/multiplexer_TEST.v
+// Module Name:   multiplexer_TEST.v
 // Project Name:  homework
 // Target Device:  
 // Tool versions:  
@@ -22,7 +22,7 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module test;
+module Multiplexer32bit2X1_TEST;
 
 	// Inputs
 	reg [31:0] input1;

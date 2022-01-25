@@ -25,6 +25,6 @@ module multiplexer32bit2X1(
     output wire [31:0] out
     );
 
-assign out = select? input2 : input1;
+	assign out = select? input2 : input1;
 
 endmodule

@@ -6,7 +6,7 @@
 //
 // Create Date:   21:38:27 12/08/2021
 // Design Name:   Execute
-// Module Name:   C:/Users/emir/homework/ProgramCounter/Execute_TEST.v
+// Module Name:   Execute_TEST.v
 // Project Name:  ProgramCounter
 // Target Device:  
 // Tool versions:  

@@ -6,7 +6,7 @@
 //
 // Create Date:   20:39:47 10/28/2021
 // Design Name:   cache
-// Module Name:   C:/Users/emir/homework/ProgramCounter/cache_TEST.v
+// Module Name:   cache_TEST.v
 // Project Name:  ProgramCounter
 // Target Device:  
 // Tool versions:  
@@ -22,7 +22,7 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module cache_TEST;
+module Cache_TEST;
 
 	// Inputs
 	reg clock;

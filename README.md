@@ -9,7 +9,7 @@
 
 MIPS multi cycle Verilog implementation based on Computer Organization and Design
 ### What instructions does it support?
-An example of the codes it supports:
+This is an example of the instructions it supports:
 ```
 add Dist, Rsrc1, Rsrc2
 sub Dist, Rsrc4, Rsrc3

@@ -6,7 +6,7 @@
 //
 // Create Date:   22:51:51 11/28/2021
 // Design Name:   ControlUnit
-// Module Name:   C:/Users/emir/homework/ProgramCounter/ControlUnit_TEST.v
+// Module Name:   ControlUnit_TEST.v
 // Project Name:  ProgramCounter
 // Target Device:  
 // Tool versions:  

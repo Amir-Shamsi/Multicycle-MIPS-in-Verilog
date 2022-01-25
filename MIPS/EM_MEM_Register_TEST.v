@@ -6,7 +6,7 @@
 //
 // Create Date:   14:22:16 12/23/2021
 // Design Name:   EM_MEM_Register
-// Module Name:   C:/Users/emir/homework/ProgramCounter/EM_MEM_Register_TEST.v
+// Module Name:   EM_MEM_Register_TEST.v
 // Project Name:  ProgramCounter
 // Target Device:  
 // Tool versions:  

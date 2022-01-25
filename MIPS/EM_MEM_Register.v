@@ -31,6 +31,7 @@ module EM_MEM_Register(
     input Branch,
     input RegWrite,
     input MemToReg,
+    input jumpSignal,
     output reg [31:0] branchTargetOut,
     output reg zeroFlagOut,
     output reg [31:0] ALUResultOut,
@@ -41,7 +42,8 @@ module EM_MEM_Register(
     output reg BranchOut,
     output reg RegWriteOut,
     output reg MemToRegOut,
-    output wire hitOut
+    output wire hitOut,
+    output reg jumpSignalOut
     );
 
 always @(negedge clock) begin
@@ -56,6 +58,7 @@ always @(negedge clock) begin
 		BranchOut = Branch;
 		RegWriteOut = RegWrite;
 		MemToRegOut = MemToReg;
+		jumpSignalOut = jumpSignal;
 	end
 end
 assign hitOut = hit;

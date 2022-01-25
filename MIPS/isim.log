@@ -1,0 +1,30 @@
+ISim log file
+Running: C:\Users\emir\homework\ProgramCounter\MIPS_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/emir/homework/ProgramCounter/MIPS_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 127.  For instance MIPS/OpcodeBasedMux2X1_m/, width 6 of formal port write_reg is not equal to width 5 of actual signal writeRegOut_from_MEM_WB.
+WARNING: File "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 133.  For instance MIPS/OpcodeBasedMux2X1_m/, width 6 of formal port write_data is not equal to width 32 of actual signal writeDataOut_from_wirte_back.
+WARNING: File "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 136.  For instance MIPS/decode_m/, width 5 of formal port write_reg is not equal to width 6 of actual signal write_reg_MIPS.
+WARNING: File "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 176.  For instance MIPS/decode_m/, width 32 of formal port write_data is not equal to width 1 of actual signal wirte_data_MIPS.
+WARNING:  For instance MIPS/ID_EX_Register_m/, width 3 of formal port ALUOp is not equal to width 7 of actual constant.
+WARNING: File "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 27.  For instance MIPS/ID_EX_Register_m/, width 1 of formal port jumpSignal is not equal to width 32 of actual signal jump_signal.
+WARNING: File "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 28.  For instance MIPS/ID_EX_Register_m/, width 1 of formal port jumpSignalOut is not equal to width 32 of actual signal jump_signal_out.
+WARNING: File "C:/Users/emir/homework/ProgramCounter/Execute.v" Line 27.  For instance execute_m/ALUControlUnit_m/, width 6 of formal port ALUOp is not equal to width 3 of actual signal ALUOp.
+WARNING: File "C:/Users/emir/homework/ProgramCounter/Execute.v" Line 34.  For instance execute_m/ALUControlUnit_m/, width 5 of formal port ALUCnt is not equal to width 4 of actual signal ALUCnt.
+WARNING: File "C:/Users/emir/homework/ProgramCounter/Execute.v" Line 34.  For instance execute_m/alu_m/, width 5 of formal port ALUCnt is not equal to width 4 of actual signal ALUCnt.
+WARNING: File "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 78.  For instance MIPS/execute_m/, width 3 of formal port ALUOp is not equal to width 6 of actual signal ALUOpOut_from_IDEX.
+WARNING:  For instance MIPS/alu_mips_m/, width 5 of formal port ALUCnt is not equal to width 32 of actual constant.
+WARNING:  For instance MIPS/alu_mips_m/, width 5 of formal port shamt is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 79.  For instance MIPS/multiplexer32bit2X1_mips_m/, width 32 of formal port input1 is not equal to width 5 of actual signal rtOut_from_IDEX.
+WARNING: File "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 80.  For instance MIPS/multiplexer32bit2X1_mips_m/, width 32 of formal port input2 is not equal to width 5 of actual signal rdOut_from_IDEX.
+WARNING: File "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 97.  For instance MIPS/multiplexer32bit2X1_mips_m/, width 32 of formal port out is not equal to width 5 of actual signal writeRegOut_from_mips_multiplexer.
+WARNING: File "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 27.  For instance MIPS/em_mem_register_m/, width 1 of formal port jumpSignal is not equal to width 32 of actual signal jump_signal.
+WARNING: File "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 28.  For instance MIPS/em_mem_register_m/, width 1 of formal port jumpSignalOut is not equal to width 32 of actual signal jump_signal_out.
+WARNING: File "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 126.  For instance MIPS/write_back_m/, width 1 of formal port MemtoReg is not equal to width 32 of actual signal ALUResultOut_from_MEM_WB.
+WARNING: File "C:/Users/emir/homework/ProgramCounter/MIPS.v" Line 129.  For instance MIPS/write_back_m/, width 32 of formal port ALUResult is not equal to width 1 of actual signal MemtoRegOut_from_MEM_WB.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

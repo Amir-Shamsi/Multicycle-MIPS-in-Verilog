@@ -6,7 +6,7 @@
 //
 // Create Date:   23:31:01 12/06/2021
 // Design Name:   ALUControlUnit
-// Module Name:   C:/Users/emir/homework/ProgramCounter/ALUControlUnit_TEST.v
+// Module Name:   ALUControlUnit_TEST.v
 // Project Name:  ProgramCounter
 // Target Device:  
 // Tool versions:  
